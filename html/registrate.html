@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Etiquetas SEO-->
+        <title> Registro </title>
+        <meta name="description" content="Registro de cuenta">
+        <meta name="keywords" content="Musica, Rock, Diversion">
+        <meta name="author" content="Gonzalo Juan Diez">
+        <script src="https://kit.fontawesome.com/fd11641ea6.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/vtks-rude-metal-shadow" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/new-rocker" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../sass/css/loginform.css">
+    </head>
+    <body>
+        <header>
+            <!--Menú de página-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="../sass/img/Logo5.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsProject01" aria-controls="navbarsProject01" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            
+                  <div class="collapse navbar-collapse" id="navbarsProject01">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                      <li class="nav-item p-4">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      
+                      <li class="nav-item p-4 dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="true">Generos</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                          <li><a class="dropdown-item p-4" href="metal.html">Heavy Metal</a></li>
+                          <li><a class="dropdown-item p-4" href="alternativo.html">Rock Alternativo</a></li>
+                          <li><a class="dropdown-item p-4" href="hard.html">Hard Rock</a></li>
+                          <li><a class="dropdown-item p-4" href="punk.html">Punk</a></li>
+                          <li><a class="dropdown-item p-4" href="blues.html">Blues Rock</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item p-4">
+                        <a class="nav-link active" aria-current="page" href="login.html">Login</a> 
+                      </li>
+                      <li class="nav-item p-4">
+                        <a class="nav-link active" aria-current="page" href="registrate.html">Registrate</a>
+                      </li>
+                      <li class="nav-item p-4">
+                        <a class="nav-link active" aria-current="page" href="cuenta.html"><i class="fas fa-user"></i></a>
+                      </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--Formulario de registro-->
+        <main>
+            <section class="login__register">
+                <h4>Formulario Registro</h4>
+                <form>
+                    <label for="Nombre">Nombre:</label>
+                        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" maxlength="15" required><br>
+                    <label for="Apellido">Apellido:</label>
+                        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" maxlength="25" required><br>
+                    <label for="E-mail">Correo:</label>
+                        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" maxlength="60" required><br>
+                    <label for="Contraseña">Contraseña:</label>
+                        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña" maxlength="15" minlength="6" required><br>
+                </form>
+                <p>Estoy de acuerdo con <a href="#">Terminos y condiciones</a></p>
+                <input class="botons" type="submit" value="Registrar">
+                <input class="botons" type="reset" value="Reiniciar registro">
+                <p><a href="login.html">¿Ya tengo cuenta?</a></p>
+            </section>
+        </main>
+        <!--Pie de página-->
+        <footer>
+            <div class="main center">
+                <div class="box">
+                    <div class="icon-box center">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="inner-box center"><p>Instagram</p></div>
+                </div>
+                <div class="box">
+                    <div class="icon-box center ib-w">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="inner-box center"><p>Whatsapp</p></div>
+                </div>
+                <div class="box">
+                    <div class="icon-box center ib-g">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="inner-box center"><p>Git Hub</p></div>
+                </div>
+            </div>
+            <p class="pie__pagina">Derechos de autor Gonzalo Diez</p>
+        </footer>
+    </body>
+</html>

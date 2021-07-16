@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--Etiquetas SEO-->
+      <title>Blues Rock</title>
+      <meta name="description" content="Bandas de Blues">
+      <meta name="keywords" content="Musica, Rock, Diversion">
+      <meta name="author" content="Gonzalo Juan Diez">
+      <script src="https://kit.fontawesome.com/fd11641ea6.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+      <link href="http://fonts.cdnfonts.com/css/vtks-rude-metal-shadow" rel="stylesheet">
+      <link href="http://fonts.cdnfonts.com/css/new-rocker" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="../sass/css/general.css">
+    </head>
+    <body>
+        <header>
+            <!--Menú de página-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><img src="../sass/img/Logo5.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsProject01" aria-controls="navbarsProject01" aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            
+                  <div class="collapse navbar-collapse" id="navbarsProject01">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                      <li class="nav-item p-4">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                      </li>
+                      
+                      <li class="nav-item p-4 dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="true">Generos</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown03">
+                          <li><a class="dropdown-item p-4" href="metal.html">Heavy Metal</a></li>
+                          <li><a class="dropdown-item p-4" href="alternativo.html">Rock Alternativo</a></li>
+                          <li><a class="dropdown-item p-4" href="hard.html">Hard Rock</a></li>
+                          <li><a class="dropdown-item p-4" href="punk.html">Punk</a></li>
+                          <li><a class="dropdown-item p-4" href="blues.html">Blues Rock</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item p-4">
+                        <a class="nav-link active" aria-current="page" href="login.html">Login</a> 
+                      </li>
+                      <li class="nav-item p-4">
+                        <a class="nav-link active" aria-current="page" href="registrate.html">Registrate</a>
+                      </li>
+                      <li class="nav-item p-4">
+                        <a class="nav-link active" aria-current="page" href="cuenta.html"><i class="fas fa-user"></i></a>
+                      </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!--reproductor de música-->
+        <main>
+            <section class="video__musica">
+                <div align="center"><img src="../sass/img/bandas/Led_Zeppelin.png"></div>
+                <div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/GPkwsZ5N_Qg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </section>
+
+            <section class="video__musica">
+                <div align="center"><img src="../sass/img/bandas/Beatles.png"></div>
+                <div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/-Rdf0_LugG0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></div>
+            </section>
+
+            <section class="carrusel__musica">
+              <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../sass/img/fondos/fiesta.jpg" width="100%" height="700px" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+            
+                    <div class="container">
+                      <div class="carousel-caption text-start">
+                        <h1>Disfruta de más cosas.</h1>
+                        <p>Si quieres conocer más bandas y enterarte de novedades crea una cuenta</p>
+                        <p><a class="btn btn-lg btn-dark" href="registrate.html">Registrate ahora</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../sass/img/fondos/rock3.jpg" width="100%" height="700px" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+            
+                    <div class="container">
+                      <div class="carousel-caption">
+                        <h1>Las mejores bandas de rock estan aquí.</h1>
+                        <p><a class="btn btn-lg btn-dark" href="#">Más bandas</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+        </main>
+        <!--Pie de página-->
+        <footer>
+          <div class="main center">
+              <div class="box">
+                  <div class="icon-box center">
+                      <i class="fab fa-instagram"></i>
+                  </div>
+                  <div class="inner-box center"><p>Instagram</p></div>
+              </div>
+              <div class="box">
+                  <div class="icon-box center ib-w">
+                      <i class="fab fa-whatsapp"></i>
+                  </div>
+                  <div class="inner-box center"><p>Whatsapp</p></div>
+              </div>
+              <div class="box">
+                  <div class="icon-box center ib-g">
+                      <i class="fab fa-github"></i>
+                  </div>
+                  <div class="inner-box center"><p>Git Hub</p></div>
+              </div>
+          </div>
+          <p class="pie__pagina">Derechos de autor Gonzalo Diez</p>
+        </footer>
+    </body>
+</html>

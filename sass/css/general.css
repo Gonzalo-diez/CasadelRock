@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/*Menu*/
+.navbar {
+  background: white;
+  display: flex;
+  font-family: 'vtks Rude Metal shadow';
+  font-family: 'vtks Rude Metal';
+  font-size: 30px; }
+
+.navbar-brand img {
+  height: 130px;
+  width: 160px;
+  border-radius: 50%; }
+
+.navbar-nav {
+  margin-left: 400px; }
+
+/*Footer*/
+.pie__pagina {
+  background-color: #fff;
+  width: 100%;
+  position: relative;
+  margin-bottom: 0; }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.main {
+  height: 30vh; }
+
+.box {
+  width: 120px;
+  height: 130px;
+  position: relative;
+  margin: 0 20px;
+  box-shadow: 7px 13px 37px #fff; }
+
+.icon-box, .inner-box {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #c32aa3;
+  color: white;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: all .4s; }
+
+.ib-w {
+  background: #25d366; }
+
+.ib-g {
+  background: #000; }
+
+.box:hover .icon-box {
+  transform: translateY(-30px); }
+
+.inner-box {
+  background: #fffeff;
+  align-items: flex-end;
+  justify-content: center;
+  z-index: -1;
+  color: #292929;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.082); }
+  .inner-box p {
+    font-size: 1.2rem;
+    margin-bottom: 5px; }
+
+/*Cuerpo y fondo de página*/
+body {
+  position: relative;
+  margin: 0;
+  min-height: 100vh;
+  background: url(../img/fondos/rock3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+
+/*Reproductor de música*/
+.video__musica {
+  width: 700px;
+  background: #24303C;
+  padding: 45px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 15px;
+  box-shadow: 7px 13px 37px red; }
+
+.carrusel__musica {
+  width: 100%;
+  height: 700px;
+  box-shadow: 7px 13px 37px snow; }
+
+/*Mobile*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .navbar {
+    width: 300px;
+    font-size: 20px; }
+  .navbar-nav {
+    margin-left: 0%; }
+  .video__musica {
+    width: 300px; }
+    .video__musica img, .video__musica iframe {
+      width: 200px; }
+  .box {
+    height: 90px; }
+  .inner-box p {
+    font-size: .9rem; } }
+
+/*Tablet*/
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  .navbar {
+    width: 768px; }
+  .navbar-nav {
+    margin-left: 45%; }
+  .video__musica {
+    width: 370px; }
+    .video__musica img {
+      width: 250px; }
+    .video__musica iframe {
+      width: 280px; }
+  .main {
+    height: 30vh; } }
+
+/*Laptop*/
+@media only screen and (max-width: 1024px) {
+  .novedades__bandas {
+    width: 1024px; }
+  .navbar-nav {
+    margin-left: 285px; }
+  .navbar {
+    font-size: 40px; } }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .navbar {
+    width: 100%;
+    font-size: 15px; } }
