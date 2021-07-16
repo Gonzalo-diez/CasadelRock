@@ -1,2 +1,0 @@
-# main
-Proyecto final
