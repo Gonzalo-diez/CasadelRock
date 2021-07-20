@@ -56,18 +56,6 @@ a {
   overflow: hidden;
 }
 
-@keyframes novanim {
-  0% {
-    background: white;
-    color: black;
-  }
-
-  50% {
-    background: black;
-    color: white;
-  }
-}
-
 @mixin margenes ($margin, $margin-top, $margin-bottom) {
   margin: $margin;
   margin-top: $margin-top;
@@ -83,9 +71,6 @@ a {
   box-shadow: 7px 13px 37px #000;
   color: white;
   font-family: 'Serat', sans-serif;
-  animation-name: novanim;
-  animation-duration: 25s;
-  animation-delay: 2s;
 
   h1 {
     text-align: center;
@@ -106,16 +91,16 @@ a {
 /*Mobile*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .navbar {
-    width: 100%;
+    width: 320px;
     font-size: 20px;
     text-align: center;
   }
 
-  .navbar-nav {
-    margin-left: 0%;
+  ul.navbar-nav {
+    margin-left: 10px;
   }
 
-  .novedades__bandas {
+  div.novedades__bandas {
     width: 300px;
 
     h1 {

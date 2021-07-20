@@ -35,7 +35,9 @@
   width: 120px;
   height: 130px;
   position: relative;
-  margin: 0 20px; }
+  margin: 0 20px;
+  border-radius: 18px;
+  box-shadow: 7px 13px 37px #fff; }
 
 .icon-box, .inner-box {
   position: absolute;
@@ -43,7 +45,6 @@
   height: 100%;
   background: #c32aa3;
   color: white;
-  border-radius: 18px;
   cursor: pointer;
   transition: all .4s; }
 
@@ -117,9 +118,11 @@ a {
 /*Mobile*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .navbar {
-    width: 100%;
+    width: 320px;
     font-size: 20px;
     text-align: center; }
+  ul.navbar-nav {
+    margin-left: 10px; }
   .gallery__title {
     font-size: 18px; }
   .pie__pagina {

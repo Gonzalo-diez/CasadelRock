@@ -35,7 +35,8 @@
   height: 130px;
   position: relative;
   margin: 0 20px;
-  box-shadow: 7px 13px 37px #fff; }
+  box-shadow: 7px 13px 37px #fff;
+  border-radius: 18px; }
 
 .icon-box, .inner-box {
   position: absolute;
@@ -43,7 +44,6 @@
   height: 100%;
   background: #c32aa3;
   color: white;
-  border-radius: 18px;
   cursor: pointer;
   transition: all .4s; }
 
@@ -113,14 +113,6 @@ a {
   z-index: -1;
   overflow: hidden; }
 
-@keyframes novanim {
-  0% {
-    background: white;
-    color: black; }
-  50% {
-    background: black;
-    color: white; } }
-
 .novedades__bandas {
   width: 700px;
   background: black;
@@ -131,10 +123,7 @@ a {
   border-radius: 15px;
   box-shadow: 7px 13px 37px #000;
   color: white;
-  font-family: 'Serat', sans-serif;
-  animation-name: novanim;
-  animation-duration: 25s;
-  animation-delay: 2s; }
+  font-family: 'Serat', sans-serif; }
   .novedades__bandas h1 {
     text-align: center;
     font-family: 'Serat', sans-serif;
@@ -148,18 +137,18 @@ a {
 /*Mobile*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .navbar {
-    width: 100%;
+    width: 320px;
     font-size: 20px;
     text-align: center; }
-  .navbar-nav {
-    margin-left: 0%; }
-  .novedades__bandas {
+  ul.navbar-nav {
+    margin-left: 10px; }
+  div.novedades__bandas {
     width: 300px; }
-    .novedades__bandas h1 {
+    div.novedades__bandas h1 {
       font-size: 38px; }
-    .novedades__bandas h2 {
+    div.novedades__bandas h2 {
       font-size: 20px; }
-    .novedades__bandas img {
+    div.novedades__bandas img {
       width: 220px; }
   .box {
     height: 90px; }
