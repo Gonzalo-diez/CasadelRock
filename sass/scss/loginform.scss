@@ -93,8 +93,9 @@ h4 {
 /*Mobile*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .navbar {
-        width: 480px;
+        width: 380px;
         font-size: 20px;
+        text-align: center;
       }
   
       ul.navbar-nav {
