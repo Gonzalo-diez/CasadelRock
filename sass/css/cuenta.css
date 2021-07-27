@@ -1,5 +1,10 @@
 @charset "UTF-8";
 /*Menu*/
+.navbar {
+  font-family: 'New Rocker', cursive;
+  background: white;
+  display: flex;
+  font-size: 30px; }
 
 .navbar-brand img {
   height: 130px;
