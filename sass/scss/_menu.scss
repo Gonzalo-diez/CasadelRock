@@ -3,18 +3,8 @@
 .navbar {
     background: white;
     display: flex;
-      @font-face {
-        font-family: 'vtks Rude Metal shadow';
-        font-style: normal;
-        font-weight: 400;
-        src: local('vtks Rude Metal shadow'), url('https://fonts.cdnfonts.com/s/28709/vtks Rude Metal Shadow.woff') format('woff');
-      }
-      @font-face {
-        font-family: 'vtks Rude Metal';
-        font-style: normal;
-        font-weight: 400;
-        src: local('vtks Rude Metal'), url('https://fonts.cdnfonts.com/s/28709/vtks Rude Metal.woff') format('woff');
-      }
+    font-family: 'vtks Rude Metal shadow';
+    font-family: 'vtks Rude Metal';
     font-size: 30px;
 }
 
