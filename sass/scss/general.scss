@@ -1,6 +1,14 @@
 @import "menu";
 @import "footer";
 
+/*menu*/
+.navbar {
+  font-family: 'vtks Rude Metal';
+  background: white;
+  display: flex;
+  font-size: 30px;
+}
+
 /*Cuerpo y fondo de página*/
 
 body {

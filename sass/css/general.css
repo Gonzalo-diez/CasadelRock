@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /*Menu*/
-
 .navbar-brand img {
   height: 130px;
   width: 160px;
@@ -60,6 +59,13 @@
   .inner-box p {
     font-size: 1.2rem;
     margin-bottom: 5px; }
+
+/*menu*/
+.navbar {
+  font-family: 'vtks Rude Metal';
+  background: white;
+  display: flex;
+  font-size: 30px; }
 
 /*Cuerpo y fondo de página*/
 body {
