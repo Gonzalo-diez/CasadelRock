@@ -3,9 +3,21 @@
 .navbar {
   background: white;
   display: flex;
-  font-family: 'vtks Rude Metal shadow';
-  font-family: 'vtks Rude Metal';
   font-size: 30px; }
+
+@font-face {
+  .navbar {
+    font-family: 'vtks Rude Metal shadow';
+    font-style: normal;
+    font-weight: 400;
+    src: local("vtks Rude Metal shadow"), url("https://fonts.cdnfonts.com/s/28709/vtks Rude Metal Shadow.woff") format("woff"); } }
+
+@font-face {
+  .navbar {
+    font-family: 'vtks Rude Metal';
+    font-style: normal;
+    font-weight: 400;
+    src: local("vtks Rude Metal"), url("https://fonts.cdnfonts.com/s/28709/vtks Rude Metal.woff") format("woff"); } }
 
 .navbar-brand img {
   height: 130px;
@@ -130,8 +142,7 @@ a {
     position: relative;
     font-family: 'Playfair Display', serif;
     width: 100%;
-    margin-top: 11%;
-    margin-bottom: 0; }
+    margin-bottom: 0px; }
   .box {
     height: 90px; }
   .inner-box p {
