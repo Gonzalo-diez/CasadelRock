@@ -3,8 +3,6 @@
 .navbar {
   background: white;
   display: flex;
-  font-family: 'vtks Rude Metal shadow';
-  font-family: 'vtks Rude Metal';
   font-size: 30px; }
 
 .navbar-brand img {
@@ -16,13 +14,6 @@
   margin-left: 400px; }
 
 /*Footer*/
-.pie__pagina {
-  background-color: #fff;
-  width: 100%;
-  margin-bottom: 0;
-  margin-top: 100px;
-  text-align: center; }
-
 .center {
   display: flex;
   justify-content: center;
@@ -125,12 +116,6 @@ a {
     margin-left: 10px; }
   .gallery__title {
     font-size: 18px; }
-  .pie__pagina {
-    background: white;
-    position: relative;
-    font-family: 'Playfair Display', serif;
-    width: 100%;
-    margin-bottom: 0px; }
   .box {
     height: 90px; }
   .inner-box p {
@@ -152,11 +137,4 @@ a {
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .navbar {
     width: 100%;
-    font-size: 16px; }
-  .pie__pagina {
-    background: white;
-    position: relative;
-    font-family: 'Playfair Display', serif;
-    width: 100%;
-    margin-top: 34.5%;
-    margin-bottom: 0; } }
+    font-size: 16px; } }
